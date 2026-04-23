@@ -1,0 +1,5 @@
+-keep class com.antifraud.app.network.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
